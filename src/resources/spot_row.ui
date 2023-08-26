@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="SpotRow" parent="GtkBox">
+    <property name="orientation">vertical</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">horizontal</property>
+        <property name="spacing">6</property>
+        <child>
+          <object class="GtkLabel" id="activator_callsign">
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="mode">
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="frequency">
+            <property name="label">1.24</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="time">
+            <property name="label">00:00</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">horizontal</property>
+        <property name="spacing">6</property>
+        <child>
+          <object class="GtkLabel" id="summit_code">
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="summit_details">
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
